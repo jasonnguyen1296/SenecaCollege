@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="utf-8" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img src="images/wahl_logo.png" style="width:250px" alt="logo"/></a>
+        </div>
+        <div class="badge badge-secondary">
+            <h1>Professional Barber Accessories</h1>
+            <h5>AMERICAN'S CLIPPER COMPANY;&nbsp;&COPY;</h5>
+        </div>
+      </div>
+      </header>
+        <h3><strong>Contact Us</strong></h3>    
+    <div class="container">
+            <form action="https://httpbin.org/post" method="POST">
+              <div>
+                <label>FISRT NAME</label>
+                <input class="form-control" id="fname" name="firstname" type="text" placeholder="First name" required >
+              </div>
+              <div>
+                <label>LAST NAME</label>
+                <input class="form-control" id="lname" name="lastname" type="text" placeholder="Last name" required >
+              </div>
+              <div>
+                <label>EMAIL</label>
+                <input class="form-control" id="email" name="email" type="email" placeholder="example@gmail.com" required >
+              </div>
+              <div>
+                <label>Address</label>
+                <input class="form-control" id="address" name = "address" type="text" placeholder="123 Queen Street W" required>
+              </div>
+              <div>
+                <label>CITY</label>
+                <br>
+                <input class="dropdown" id="city" list="cities" name="city" placeholder="Toronto" required >
+                <datalist id="cities">
+                  <option value="Toronto"> </option>
+                  <option value="Ottawa"> </option>
+                  <option value="Montreal"></option>
+                  <option value="Vancouver"></option>
+                  <option value="Calgary"></option>
+                  <option value="Edmonton"></option>
+                  <option value="Winnipeg"></option>
+                  <option value="Hamilton"></option>
+                  <option value="Kitchener"></option>
+                  <option value="London"></option>
+                </datalist>
+              </div>
+              <div>
+                <label>PHONE NUMBER</label>
+                <input
+                  class="form-control"
+                  id="phone-number"
+                  name="telephone"
+                  type="tel"
+                  placeholder="+1 (000)-000-0000"
+                  pattern="^\(?([0-9]{3})\)?[-.●]?([0-9]{3})[-.●]?([0-9]{4})$"
+                  required
+                >
+              </div>
+              <div>
+                <label>POSTAL CODE</label>
+                <input
+                class="form-control"
+                type="text"
+                name="postalcode"
+                pattern="^[ABCEGHJKLMNPRSTVXYabceghjklmnprstvxy]{1}\d{1}[A-Za-z]{1}\d{1}[A-Za-z]{1}\d{1}$"
+                placeholder="Your postal code"
+                required
+              >
+              </div>
+              <div class =>
+                <label>WOULD YOU LIKE TO BE CONTACT?</label>
+                <label>Phone</label>
+                <input id ="byphone" name = "contactby" type="checkbox" value="phone">
+                <label>Email</label>
+                <input id = "byemail" name = "contactby" type="checkbox" value="email">
+              </div>
+              <fieldset class="form-group">
+                <div class="row">
+                  <legend class="col-form-label col-sm-2 pt-0">Subject:</legend>
+                  <div class="col-sm-10">
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="subject" id = "gridRadios1" value="question" checked>
+                      <label class="form-check-label" for="gridRadios1">
+                        Question
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="subject" id ="gridRadios2" value="comment">
+                      <label class="form-check-label" for="gridRadios2">
+                        Comment
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="subject" id = "gridRadios3" value="orderproblem">
+                      <label class="form-check-label" for="gridRadios3">
+                        Order Problem
+                      </label>
+                    </div>
+                  </div>
+                </div>
+              </fieldset>
+              <div>
+                <label>MESSAGE</label>
+                <textarea class="form-control" name="details" placeholder="Please explain in details" required></textarea>
+              </div>
+              <input type="hidden" class="Truong Giang Nguyen">
+              <input type="submit" class ="btn btn-secondary" value="Send">
+            </form>
+      </div>
+      <footer>
+        <div class="container">
+          <div class="form">
+            <label>Enter Email to receive update when we get new exclusive items</label>
+            <form action="https://formspree.io/f/mqkgyqjy" method="POST">
+              <label>
+                Your email:
+                <input type="text" name="_replyto" />
+              </label>
+              <button type="submit" class="btn btn-secondary">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </footer>
+      <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+  </html>
+  

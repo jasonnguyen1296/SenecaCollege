@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>WEB222 Store</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="script.js" type="text/javascript"></script>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="logo">
+          <a href="#"><img src="images/wahl_logo.png" style="width:250px" alt="logo"/></a>
+        </div>
+        <div class="title">
+          <a href="#"><h1>Professional Barber Accessories</h1></a>
+        </div>
+        <div class="page" id="current">
+          <h3>AMERICAN'S CLIPPER COMPANY;&nbsp;&COPY;</h3>
+        </div>
+        
+        <div class="search">
+          <form action="/search" method="POST">
+            <input id="search" type="text" placeholder="Search for products" />
+            <button type="submit">Search<i class="fa fa-search"></i></button>
+          </form>
+        </div>
+        <div class="cart">
+          <a href="#"><h4>Cart:</h4></a>
+          <p>0 items</p>
+          <br />
+          <p>Total: $0.00 CAD</p>
+        </div>
+        
+      </div>
+    </header>
+
+    <nav>
+      <div class="navbar">
+        <div class="all">
+          <button class="button buttonall" id="allproducts"><b>All Products</b></button>
+        </div>
+        <div class="clippers">
+          <button class="button buttonclippers" id="clippers"><b>Clippers</b></button>
+        </div>
+        <div class="trimmers">
+          <button class="button buttonps4" id="trimmers"><b>Trimmer</b></button>
+        </div>
+        <div class="shavers">
+          <button class="button buttonxbox" id="shavers"><b>Shaver</b></button>
+        </div>
+        <div class="5star">
+          <button class="button buttonswitch" id="5star"><b>5-Star</b></button>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <div class="wrapper" id="wrapper"></div>
+    </main>
+
+    <footer>
+      <nav>
+      <div class="footer">
+        <div class="name">
+          <a href="index.html"><p ><u>WAHL PRO</u></p></a>
+        </div>
+        <div class="about">
+          <a href="#"><p><u>About Us</u></p></a>
+        </div>
+        <div class="contact">
+          <a href="contact.html"><p><u>Contact Us</u></p></a>
+        </div>
+        </nav>
+        <br>
+        <div style="display: flex; justify-content: flex-end">
+          <form action="https://formspree.io/f/mqkgyqjy" method="POST">
+            <label>
+              <b>Subscribe to our newsletter!</b>
+              <input
+                id="search"
+                type="email"
+                valid
+                placeholder="Your email here..."
+                name="_replyto"
+              />
+            </label>
+            <button type="submit">Submit<i class="fas fa-envelope-square"></i></button>
+          </form>
+        </div>
+        <div class="info">
+          <h5 style="text-align: center;">&copy; 2020 Truong Giang Nguyen-121265193-tgnguyen@myseneca.ca</h5>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
