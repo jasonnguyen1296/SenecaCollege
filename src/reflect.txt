@@ -1,0 +1,7 @@
+Truong Giang Nguyen
+Student No.121265193
+tgnguyen1@myseneca.ca
+	By this assignment, I could able to develop a hair clipper store, learned how to create a website using html5, javascript. Besides that, I was learned how to create a form with different characteristics and fields of data with validation format.
+There is some field of data inputs that was set by default, and I also use some pattern validation for either telephone, postal code and email address. Otherwise, The placeholder is also an attribute that helps the user with example format. The length setting is also a good thing to limit and validate input.
+I use the web browser to test assignment in the run time. The actual problem that I faced in the project is CSS element block. Additionally, I use built-in web browser tool to debug and found out the error in the HTML file.
+The advice is there is some available source from Bootstrap about form and HTML elements which will help us very quickly in developing a website and a good standard outline for the page.

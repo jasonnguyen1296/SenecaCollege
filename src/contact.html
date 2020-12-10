@@ -32,7 +32,9 @@
               </div>
               <div>
                 <label>EMAIL</label>
-                <input class="form-control" id="email" name="email" type="email" placeholder="example@gmail.com" required >
+                <input class="form-control" id="email" name="email" type="email" 
+                pattern="^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$"
+                placeholder="example@gmail.com" required >
               </div>
               <div>
                 <label>Address</label>
